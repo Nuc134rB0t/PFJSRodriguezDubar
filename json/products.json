@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "description": "Bugatti Chiron",
+    "stock": 1,
+    "price": "$2,998,000",
+    "image": "../media/img/super-autos/1.jpg"
+  },
+  {
+    "id": 2,
+    "description": "Lamborghini Aventador SVJ",
+    "stock": 1,
+    "price": "$517,770",
+    "image": "../media/img/super-autos/2.jpg"
+  },
+  {
+    "id": 3,
+    "description": "Ferrari LaFerrari",
+    "stock": 1,
+    "price": "$2,700,000",
+    "image": "../media/img/super-autos/3.jpg"
+  },
+  {
+    "id": 4,
+    "description": "Rolls-Royce Phantom",
+    "stock": 1,
+    "price": "$450,000",
+    "image": "../media/img/super-autos/4.jpg"
+  },
+  {
+    "id": 5,
+    "description": "Bentley Mulsanne",
+    "stock": 1,
+    "price": "$304,670",
+    "image": "../media/img/super-autos/5.jpg"
+  },
+  {
+    "id": 6,
+    "description": "Aston Martin DBS Superleggera",
+    "stock": 1,
+    "price": "$308,081",
+    "image": "../media/img/super-autos/6.jpg"
+  },
+  {
+    "id": 7,
+    "description": "Porsche 911 Turbo S",
+    "stock": 1,
+    "price": "$203,500",
+    "image": "../media/img/super-autos/7.jpg"
+  },
+  {
+    "id": 8,
+    "description": "Mercedes-Benz S-Class Maybach",
+    "stock": 1,
+    "price": "$173,000",
+    "image": "../media/img/super-autos/8.jpg"
+  },
+  {
+    "id": 9,
+    "description": "BMW 8 Series Gran Coupe",
+    "stock": 1,
+    "price": "$92,000",
+    "image": "../media/img/super-autos/9.jpg"
+  },
+  {
+    "id": 10,
+    "description": "Audi R8 V10 Plus",
+    "stock": 1,
+    "price": "$195,900",
+    "image": "../media/img/super-autos/10.jpg"
+  },
+  {
+    "id": 11,
+    "description": "Lexus LC 500",
+    "stock": 1,
+    "price": "$92,950",
+    "image": "../media/img/super-autos/11.jpg"
+  },
+  {
+    "id": 12,
+    "description": "Maserati GranTurismo",
+    "stock": 1,
+    "price": "$134,300",
+    "image": "../media/img/super-autos/12.jpg"
+  },
+  {
+    "id": 13,
+    "description": "Jaguar F-Type SVR",
+    "stock": 1,
+    "price": "$123,600",
+    "image": "../media/img/super-autos/13.jpg"
+  },
+  {
+    "id": 14,
+    "description": "McLaren 720S",
+    "stock": 1,
+    "price": "$299,000",
+    "image": "../media/img/super-autos/14.jpg"
+  },
+  {
+    "id": 15,
+    "description": "Tesla Model S Plaid",
+    "stock": 1,
+    "price": "$129,990",
+    "image": "../media/img/super-autos/15.jpg"
+  },
+  {
+    "id": 16,
+    "description": "Acura NSX",
+    "stock": 1,
+    "price": "$157,500",
+    "image": "../media/img/super-autos/16.jpg"
+  }
+]

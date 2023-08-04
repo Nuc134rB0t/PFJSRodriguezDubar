@@ -1,0 +1,170 @@
+/*! Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*! Theme controls */
+/* Light theme related */
+:root[data-applied-mode="light"] {
+    color-scheme: light;
+    --text: #1f1f1f;
+    --background: white;
+}
+/* Dark theme related */
+:root[data-applied-mode="dark"] {
+    color-scheme: dark;
+    --text: white;
+    --background: #1f1f1f;
+}
+/* Theme related */
+body {
+    color: var(--text);
+    background: var(--background);
+}
+
+/*! Session Management */
+/* Buttons container */
+.controls {
+    position: fixed;
+    top: 1em;
+    right: 0.5em;
+    width: 150px;
+}
+/* Change Theme Button */
+#theme-toggle {
+    position:relative;
+    width: 70px;
+    border-radius: 5px;
+	font-family: inherit;
+	border-width: 0.15em;
+	border-style: solid;
+	border-radius: 0.8em;
+	background-color: transparent;
+	cursor: pointer;
+}
+[data-applied-mode="light"] #theme-toggle {
+	color: #1a1a1a;
+	border-color: #1a1a1a;
+}
+[data-applied-mode="dark"] #theme-toggle {
+	color: #eee;
+	border-color: #eee;
+}
+/* Logout Button */
+#session-toggle {
+	position: absolute;
+	/* top: 1em; */
+	/* right: 1em; */
+    width: 70px;
+    border-radius: 5px;
+	font-family: inherit;
+	border-width: 0.15em;
+	border-style: solid;
+	border-radius: 0.8em;
+	background-color: transparent;
+	cursor: pointer;
+}
+[data-applied-mode="light"] #theme-toggle {
+	color: #1a1a1a;
+	border-color: #1a1a1a;
+}
+[data-applied-mode="dark"] #theme-toggle {
+	color: #eee;
+	border-color: #eee;
+}
+
+/*! Crypto currency */
+#arrowButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    background-color: #fccb38;
+    background-image: url("../media/img/crypto/button.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 35px;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 9999;
+}
+#cryptoCard {
+    position: fixed;
+    bottom: 1em;
+    right: 5em;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--background);
+}
+.card-titleCustom {
+    background-color: #fccb38;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.card-textCustom {
+    color: #b2b8c1;
+    color: var(--text);
+    font-size: 10px;
+    margin: 0 0 0 5px;
+    padding: 0;
+}
+.card-textCustom small{
+    color: #b2b8c1;
+    color: var(--text);
+}
+
+/*! Sidebar Style */
+/* Sidebar */
+.sidebar {
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.sidebar .nav-item {
+    width: 100%;
+    padding: 8px;
+}
+.sidebar .nav-link {
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+.sidebar .nav-link:hover {
+    color: #007bff;
+}
+/* Sidebar - Main content */
+.content {
+    margin-left: 200px; /* Ancho de la barra lateral */
+    padding: 20px;
+}
+
+.mt-8 {
+    margin-top: 80px;
+}
